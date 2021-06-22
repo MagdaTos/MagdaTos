@@ -1,10 +1,6 @@
 public class AutoTest {
     public static void main(String[] args) {
-        Auto mercedes = new Auto();  // dodaje nowego obiektu klasy auto, przypisany do zmiennej mercedes
-        mercedes.marka = "Mercedes";
-        mercedes.model = "Klasa S";
-        mercedes.rok = 2021;
-        mercedes.przebieg = 1000;
+        Auto mercedes = new Auto("Mercedes", "Klasa S", 2021, 1000);  // dodaje nowego obiektu klasy auto, przypisany do zmiennej mercedes
 
         mercedes.jedz();
         mercedes.hamuj();

@@ -5,14 +5,13 @@ public class Student {
     public String email;
     public int numerIndeksu;
 
-    public void przedstawSie() {
-        System.out.println("Nazywam się: " + imię + " " + nazwisko);
-    }
+    // ta ponizej to metoda statyczna, mozna ją wywołać odwołując się do niej do pol statycznych - static
+    public static String nazwaUczelni = "AGH po zmianie"; // pole statyczne
 
-    public void zalogujSie() {
-        System.out.println("Loguję się za pomocą: " + nick);
+    // poniżej metody są charakterystyczne na obiektów danej klasy
+    public void przedstawSie() { System.out.println("Nazywam się: " + imię + " " + nazwisko); }
 
-    }
+    public void zalogujSie() { System.out.println("Loguję się za pomocą: " + nick); }
 
     public void podajNrIndeksu() {
         System.out.println("Mój nr indeksu to: " + numerIndeksu);
@@ -20,6 +19,14 @@ public class Student {
 
     public void podajEmail() {
         System.out.println("Mój email to: " + email);
+    }
+
+    public static void infoUczelnia() {
+        System.out.println("Moja uczenia to " + nazwaUczelni);
+        druga();
+    }
+    public static void druga() {
+        System.out.println("Jestem drugą metodą");
     }
 
 }

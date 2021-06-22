@@ -1,5 +1,10 @@
+import java.util.Scanner;
+//main też jest metodą statyczną
 public class StudentChecker {
     public static void main(String[] args) {
+
+        String uczelnia = Student.nazwaUczelni; // pole statyczne
+        Student.infoUczelnia();
 
         Student adam = new Student();
         adam.imię = "Adam";
@@ -7,6 +12,9 @@ public class StudentChecker {
         adam.numerIndeksu = 21321;
         adam.email = "adamadam@gmail.com";
         adam.nick = "Adaam";
+        adam.infoUczelnia();
+
+        String uczelniaAdama = adam.nazwaUczelni;
 
         Student kasia = new Student();
         kasia.imię = "Kasia";
@@ -34,7 +42,10 @@ public class StudentChecker {
             students[i].zalogujSie();
         }
 
-        String imię;
+        String imie = "kasia";
+        imie.strip();
+        Scanner scanner = new Scanner(System.in);
+
 
 
 
