@@ -3,12 +3,12 @@ public class PersonTest {
         MathTeacher teacher = new MathTeacher("Tom", 29, "university");
         teacher.walk();
         teacher.eat();
-        teacher.teachMatch();
-        teacher.sayHello();
+        //teacher.teachMatch();
+        //teacher.sayHello();
 
         Footballer footballer = new Footballer("Mike", 21, "Barca Juniors");
 
         footballer.eat();
-        footballer.playFootball();
+/*        footballer.playFootball();*/
     }
 }
