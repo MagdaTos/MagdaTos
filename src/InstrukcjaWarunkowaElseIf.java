@@ -1,6 +1,6 @@
 public class InstrukcjaWarunkowaElseIf {
     public static void main(String[] args) {
-        int number = -4;
+        int number = -15;
         if(number > 0) {
             System.out.println("Liczba wieksza od zera");
         } else if (number < -10) {
