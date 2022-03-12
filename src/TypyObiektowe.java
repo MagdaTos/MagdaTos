@@ -24,5 +24,6 @@ public class TypyObiektowe {
 
         System.out.println(hello.charAt(0));
 
+
     }
 }

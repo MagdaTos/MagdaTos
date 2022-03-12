@@ -21,5 +21,6 @@ public class TypyProste {
         char letter = 'A'; //pojedynczy cudzysłów
 
 
+
     }
 }

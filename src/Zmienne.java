@@ -11,7 +11,7 @@ public class Zmienne {
         secondNumber = 2;
         result = firstNumber + secondNumber;
 
-        name = "Kasia";
+        name = "Joanna";
         System.out.println(name);
         System.out.println(result);
     }

@@ -6,7 +6,7 @@ public class OperatoryPorównania {
         int firstNumber = 4;
         int secondNumber = 6;
 
-        boolean result = firstNumber > secondNumber; // true
+        boolean result = firstNumber > secondNumber; // false
 
         System.out.println(result);
         System.out.println(firstNumber == secondNumber);
@@ -15,12 +15,12 @@ public class OperatoryPorównania {
         System.out.println(firstNumber < secondNumber);
         System.out.println(firstNumber >= secondNumber);
         System.out.println(firstNumber <= secondNumber);
-        Scanner liczba = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Proszę podaj pierwszą liczbę");
-        int firstNumber2 = liczba.nextInt();
-        Scanner liczba2 = new Scanner(System.in);
+        int firstNumber2 = scanner.nextInt();
+
         System.out.println("Proszę podaj pierwszą liczbę");
-        int secondNumber2 = liczba2.nextInt();
+        int secondNumber2 = scanner.nextInt();
         int wynik = firstNumber2 + secondNumber2;
         System.out.println("Wynik dodawania tych dwóch liczb: " + wynik);
 
