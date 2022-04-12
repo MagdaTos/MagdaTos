@@ -35,11 +35,15 @@ public class Metods {
 
     }
 
+
+
     public int add(int firstNumber, int secondNumber, String word) {
         System.out.println("Suma to: " + (firstNumber + secondNumber + word) );
-/*        if(firstNumber ==0) {
+
+        if(firstNumber ==0) {
             return 0; // gdy mamy if, trzeba dac tez "return" poza if, gdy return byłby równy false
-        }*/
+        }
         return firstNumber + secondNumber;
+
     }
 }

@@ -4,7 +4,7 @@ public class StudentChecker {
     public static void main(String[] args) {
 
         String uczelnia = Student.nazwaUczelni; // pole statyczne
-        Student.infoUczelnia();
+        Student.infoUczelnia(); //metoda statyczna
 
         Student adam = new Student();
         adam.imię = "Adam";

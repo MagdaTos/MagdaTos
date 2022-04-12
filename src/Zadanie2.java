@@ -10,7 +10,7 @@ public class Zadanie2 {
         } else if (wiek < 0) {
             System.out.println(" To nieprawidłowa liczba");
         } else {
-            System.out.println("Spdaka! Nie kupisz alkoholu gnoju");
+            System.out.println("Spadaka! Nie kupisz alkoholu gnoju");
         }
     }
 }
